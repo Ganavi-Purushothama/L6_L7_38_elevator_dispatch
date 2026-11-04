@@ -72,8 +72,11 @@ git commit -m "Add branch coverage tests and result screenshot"
 Submission status: the two test commits have been created and pushed to
 `https://github.com/Ganavi-Purushothama/L6_L7_38_elevator_dispatch`.
 The fork is `origin`, and the course repository is `upstream`.
-The screenshots are still pending. After saving the two actual terminal captures,
-run the following from the repository root to include them:
+Both actual terminal screenshots have been reviewed and saved in
+`lab6/screenshots/code_coverage.png` and `lab6/screenshots/branch_coverage.png`.
+They show 14 passing line tests and 35 passing branch tests, with 100% coverage.
+The screenshot submission commit includes both files. The commands used from
+the repository root are:
 
 ```powershell
 git add lab6/screenshots/code_coverage.png lab6/screenshots/branch_coverage.png
